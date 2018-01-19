@@ -6,3 +6,22 @@ On top of this generic API, the students will have to investigate the creation o
 With this dynamic GraphQL API, the GraphQL clients should be able to navigate in the graph of data using the concept of their business.
 For those who success in completing both tasks, the GraphQL API could be improved with support for EMF Edit and even with an investigation of GraphQL Subscriptions.
 1: https://github.com/graphql-java/graphql-java
+
+## Getting started
+
+```sh
+# Clone repository
+git clone git@github.com:ObeoNetwork/GraphQLEMF.git
+cd GraphQLEMF
+```
+
+## Usage
+
+```sh
+mvn install
+mvn test
+mvn jetty:run -e
+```
+
+Now you can open http://localhost:8080/
+
