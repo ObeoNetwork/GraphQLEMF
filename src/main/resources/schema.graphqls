@@ -1,0 +1,13 @@
+type Ecore {
+  name: String!
+  nsURI: String!
+  nsPrefix: String!
+}
+
+type Query {
+  allEcores: [Ecore]
+}
+
+schema {
+  query: Query
+}

@@ -25,3 +25,13 @@ mvn jetty:run -e
 
 Now you can open http://localhost:8080/
 
+An example GraphQL query might look like:
+```
+{
+  allEcores {
+    name
+    nsURI
+    nsPrefix
+  }
+}
+```
