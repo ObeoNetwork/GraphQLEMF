@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conference:Conference xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:conference="http://www.example.org/conference" name="EclipseCon Europe 2014">
+  <tracks name="Eclipse Technology">
+    <talks speakers="//@speakers.0" name="Sirius + Xtext = ♥" day="//@days.1" location="//@locations.2" time="13:45"/>
+    <talks speakers="//@speakers.3" name="How to make Sirius shine? " day="//@days.1" location="//@locations.1" time="11:15"/>
+    <talks speakers="//@speakers.4 //@speakers.5" name="News from EGit" day="//@days.2" location="//@locations.0" time="11:15"/>
+    <talks speakers="//@speakers.4" name="Enhanced Tooling for Modern Eclipse Plugin Development" duration="35" day="//@days.2" location="//@locations.3" time="13:30"/>
+  </tracks>
+  <tracks name="Other Cool Stuff">
+    <talks speakers="//@speakers.1 //@speakers.2" name="First Open-Source Agile Planner in Eclipse, by and for Agile Teams" day="//@days.1" location="//@locations.0" time="11:15"/>
+  </tracks>
+  <tracks name="Web Technologies">
+    <talks speakers="//@speakers.6" name="Modern web application development workflow" day="//@days.2" location="//@locations.4" time="10:30"/>
+  </tracks>
+  <tracks name="Industry Solutions">
+    <talks speakers="//@speakers.7" name="On the road to Mars with Mars, thanks to Polarsys" day="//@days.2" location="//@locations.2" time="13:30"/>
+    <talks speakers="//@speakers.8 //@speakers.9 //@speakers.10" name="Capella on the field: Model-based system engineering use cases" day="//@days.1" location="//@locations.2" time="15:15"/>
+  </tracks>
+  <tracks name="BOF">
+    <talks speakers="//@speakers.11" name="Let's Practice Sirius" abstract="" duration="60" day="//@days.1" location="//@locations.3" time="19:00"/>
+  </tracks>
+  <speakers talks="//@tracks.0/@talks.0" name="Cédric Brun"/>
+  <speakers talks="//@tracks.1/@talks.0" name="Laurent Delaigue"/>
+  <speakers talks="//@tracks.1/@talks.0" name="Laurent Charles"/>
+  <speakers talks="//@tracks.0/@talks.1" name="Maxime Porhel"/>
+  <speakers talks="//@tracks.0/@talks.2 //@tracks.0/@talks.3" name="Mikael Barbero"/>
+  <speakers talks="//@tracks.0/@talks.2" name="Matthias Sohn"/>
+  <speakers talks="//@tracks.2/@talks.0" name="Stéphane Bégaudeau"/>
+  <speakers talks="//@tracks.3/@talks.0" name="Etienne Juliot"/>
+  <speakers talks="//@tracks.3/@talks.1" name="Kristian Ashton"/>
+  <speakers talks="//@tracks.3/@talks.1" name="Christophe Gatti"/>
+  <speakers talks="//@tracks.3/@talks.1" name="Matthieu Helleboid"/>
+  <speakers talks="//@tracks.4/@talks.0" name="Christophe Boudjennah"/>
+  <days name="Tuesday"/>
+  <days name="Wednesday" talks="//@tracks.0/@talks.0 //@tracks.0/@talks.1 //@tracks.1/@talks.0 //@tracks.4/@talks.0 //@tracks.3/@talks.1"/>
+  <days name="Thursday" talks="//@tracks.0/@talks.3 //@tracks.2/@talks.0 //@tracks.3/@talks.0 //@tracks.0/@talks.2"/>
+  <locations name="Bürgersaal 2" talks="//@tracks.1/@talks.0 //@tracks.0/@talks.2"/>
+  <locations name="Wilhelm-Kramer-Zimmer" talks="//@tracks.0/@talks.1"/>
+  <locations name="Theater" talks="//@tracks.0/@talks.0 //@tracks.3/@talks.0 //@tracks.3/@talks.1"/>
+  <locations name="Silchersaal" talks="//@tracks.0/@talks.3 //@tracks.4/@talks.0"/>
+  <locations name="Theater Stage" talks="//@tracks.2/@talks.0"/>
+</conference:Conference>

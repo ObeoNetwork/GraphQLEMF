@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conference:Conference xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:conference="http://www.example.org/conference" name="ESSEI">
+  <tracks name="Morning">
+    <talks name="Some organizational points and introduction of ESSEI" abstract="Welcome Introduction" duration="10" day="//@days.0" location="//@locations.0" time="09:00"/>
+    <talks speakers="//@speakers.1 //@speakers.0" name="Multicore– Development with AF3" abstract="" duration="35" day="//@days.0" location="//@locations.0" time="10:00"/>
+    <talks name="Lunch" abstract="" duration="35" day="//@days.0" location="//@locations.0" time="12:30"/>
+    <talks name="'new talk'"/>
+  </tracks>
+  <tracks name="Afternoon">
+    <talks speakers="//@speakers.2" name="Presentation of Esterel" abstract="" duration="35" day="//@days.0" location="//@locations.0" time="10:00"/>
+    <talks speakers="//@speakers.3" name="Presentation of BTC" abstract="" day="//@days.0" location="//@locations.0" time="13:00"/>
+    <talks speakers="//@speakers.4" name="Experience in using Enterprise Architect " abstract="" duration="35" day="//@days.0" location="//@locations.0" time="17:00"/>
+    <talks speakers="//@speakers.6" name="Sirius - A graphic model is worth a thousand words" abstract="Presentation of Sirius, Capella, uses cases of Domain Specific Languages and Obeo's Vision." duration="35" day="//@days.0" location="//@locations.0" time="15:00">
+      <subjects description="The Open Source project"/>
+      <subjects description="10 min to create a designer" isDone="true"/>
+      <subjects description="System Engineering &amp; &#xD;&#xA;Software Architecture &#xD;&#xA;with Capella" isDone="true"/>
+      <subjects description="EA to Master Transformation"/>
+      <subjects description="Features for an Efficient Design"/>
+      <subjects description="Conclusion &amp; Questions"/>
+      <subjects description="Integration with Eclipse Modeling"/>
+      <subjects description="Very cool introduction for ESSEI" isDone="true"/>
+      <subjects description="5 more?" isDone="true"/>
+      <subjects description="HelloWorld&#xD;&#xA;from scratch"/>
+      <subjects description="Obeo's vision"/>
+      <subjects description="MDD for Embedded Systems"/>
+      <makingOfStories name="Story from ESSEI">
+        <days name="Thursday">
+          <tasks/>
+        </days>
+        <days name="Wednesday">
+          <tasks isInvolved="//@tracks.1/@talks.3/@makingOfStories.0/@days.1/@participants.0"/>
+          <tasks isInvolved="//@tracks.1/@talks.3/@makingOfStories.0/@days.1/@participants.0"/>
+          <tasks isInvolved="//@tracks.1/@talks.3/@makingOfStories.0/@days.1/@participants.0"/>
+          <ideas/>
+          <participants person="//@speakers.6"/>
+        </days>
+      </makingOfStories>
+    </talks>
+  </tracks>
+  <speakers talks="//@tracks.0/@talks.1" name="Sergey Zverlov"/>
+  <speakers talks="//@tracks.0/@talks.1" name="Thomas Böhm"/>
+  <speakers talks="//@tracks.1/@talks.0" name="Tobias Knostmann"/>
+  <speakers talks="//@tracks.1/@talks.1" name="Dr. Brockmeyer"/>
+  <speakers talks="//@tracks.1/@talks.2" name="Laurent Dieudonne"/>
+  <speakers name="Christoph Daniel Schulze"/>
+  <speakers talks="//@tracks.1/@talks.3" name="Etienne Juliot"/>
+  <days name="Thursday" talks="//@tracks.0/@talks.2 //@tracks.0/@talks.1 //@tracks.1/@talks.2 //@tracks.1/@talks.3 //@tracks.1/@talks.1 //@tracks.1/@talks.0 //@tracks.0/@talks.0"/>
+  <locations name="Fortiss" talks="//@tracks.1/@talks.2 //@tracks.0/@talks.2 //@tracks.0/@talks.1 //@tracks.1/@talks.1 //@tracks.1/@talks.0 //@tracks.1/@talks.3 //@tracks.0/@talks.0"/>
+</conference:Conference>

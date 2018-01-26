@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conference:Conference xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:conference="http://www.example.org/conference" name="Craft">
+  <tracks name="Eclipse Tool Makers'Day">
+    <talks speakers="//@speakers.2" name="Introduction" duration="15" day="//@days.0" location="//@locations.0" time="09h15"/>
+    <talks speakers="//@speakers.3" name="Software is Eating the World - What to do?" duration="90" day="//@days.0" location="//@locations.0" time="09h30"/>
+    <talks speakers="//@speakers.5" name="Model Based Development and Code Generation for Automotive Embedded Systems" duration="60" day="//@days.0" location="//@locations.0" time="14:00"/>
+    <talks speakers="//@speakers.4" name="The Capella open sourcing story: stakes, challenges, opportunities" abstract="Overview of Capella, MBSE solution based on Sirius" duration="60" day="//@days.0" location="//@locations.0" time="11h00"/>
+    <talks speakers="//@speakers.0" name="Graphical DSL with Sirius: how to simplify the creation of custom modeling tools" abstract="Overview of DSL &amp; Sirius" duration="60" day="//@days.0" location="//@locations.0" time="12h00">
+      <makingOfStories name=""/>
+    </talks>
+    <talks speakers="//@speakers.1" name="Multi-disciplinary simulation of smart and safe systems" duration="30" day="//@days.0" location="//@locations.0" time="16h30"/>
+  </tracks>
+  <tracks name="Craft Main Conf">
+    <talks speakers="//@speakers.7" name="Serverless Design Patterns with AWS Lambda: Big Data with Little Effort" day="//@days.1" location="//@locations.1" time="09:05"/>
+    <talks speakers="//@speakers.8" name="Screenplay with Serenity BDD" day="//@days.1" location="//@locations.1" time="11:05"/>
+  </tracks>
+  <speakers talks="//@tracks.0/@talks.4" name="Etienne Juliot" organisation="Obeo"/>
+  <speakers talks="//@tracks.0/@talks.5" name="Ákos Horváth" organisation="IncQuery Labs "/>
+  <speakers talks="//@tracks.0/@talks.0" name="István Ráth"/>
+  <speakers talks="//@tracks.0/@talks.1" name="Ralph Müller"/>
+  <speakers talks="//@tracks.0/@talks.3" name="Stéphane Bonnet"/>
+  <speakers talks="//@tracks.0/@talks.2" name="Gergely Pintér"/>
+  <speakers name="Elemér Lelik"/>
+  <speakers talks="//@tracks.1/@talks.0" name="Tim Wagner"/>
+  <speakers talks="//@tracks.1/@talks.1" name="John Smart"/>
+  <days name="Wednesday" talks="//@tracks.0/@talks.0 //@tracks.0/@talks.1 //@tracks.0/@talks.5 //@tracks.0/@talks.3 //@tracks.0/@talks.4 //@tracks.0/@talks.2"/>
+  <days name="Thursday" talks="//@tracks.1/@talks.0 //@tracks.1/@talks.1"/>
+  <locations name="Ericsson Science Park" talks="//@tracks.0/@talks.3 //@tracks.0/@talks.5 //@tracks.0/@talks.0 //@tracks.0/@talks.1 //@tracks.0/@talks.4 //@tracks.0/@talks.2"/>
+  <locations name="Magyar Vasúttörténeti Park" talks="//@tracks.1/@talks.0 //@tracks.1/@talks.1"/>
+</conference:Conference>

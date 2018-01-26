@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conference:Conference xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:conference="http://www.example.org/conference" name="Atsen">
+  <tracks name="Morning">
+    <talks speakers="//@speakers.1" name="Model-Drıven Desıgn for Mappıng Parallel Applıcatıons to Parallel Computıng Platforms" duration="45" day="//@days.0" location="//@locations.0" time="11:30"/>
+    <talks speakers="//@speakers.2 //@speakers.6" name="Opening Speeches" abstract="" duration="30" day="//@days.0" location="//@locations.0" time="9:45"/>
+    <talks speakers="//@speakers.0" name="MDSD 2.0" abstract="Sirius" duration="60" day="//@days.0" time="10:15">
+      <subjects description="Demo of a full featured designer"/>
+      <subjects description="10 min to create a designer from scratch"/>
+      <subjects description="How to create an aircraft?"/>
+      <subjects description="Domain &#xD;&#xA;Driven &#xD;&#xA;Design"/>
+      <subjects description="OpenSource &amp; Eclipse Modeling: the game changer"/>
+      <subjects description="Enterprise Architecture"/>
+      <subjects description="Code Generation"/>
+      <subjects description="Conclusion &amp; Questions"/>
+      <subjects description="Integration with others projects"/>
+      <subjects description="Very cool introduction"/>
+      <makingOfStories name="Story from Atsen">
+        <days name="Friday">
+          <tasks/>
+        </days>
+        <days name="Thursday">
+          <tasks isInvolved="//@tracks.0/@talks.2/@makingOfStories.0/@days.1/@participants.0"/>
+          <tasks isInvolved="//@tracks.0/@talks.2/@makingOfStories.0/@days.1/@participants.0"/>
+          <tasks isInvolved="//@tracks.0/@talks.2/@makingOfStories.0/@days.1/@participants.0"/>
+          <ideas/>
+          <participants person="//@speakers.8"/>
+        </days>
+      </makingOfStories>
+    </talks>
+    <talks speakers="//@speakers.3" name="UML-Drıven Software Performance Engıneerıng" duration="30" day="//@days.0" time="12:15"/>
+  </tracks>
+  <tracks name="Afternoon">
+    <talks speakers="//@speakers.5" name="A Holıstıc Approach to Modelıng, Analysıs and Testıng" duration="30"/>
+    <talks speakers="//@speakers.4" name="End User Development: An Experıence ın Brıdgıng Research wıth Industry" duration="30"/>
+    <talks speakers="//@speakers.7" name="Improvıng Models for Model-based Testıng usıng Exploratory Testıng" duration="30"/>
+    <talks speakers="//@speakers.9" name="Combınatorıal Interactıon Testıng" duration="30"/>
+    <talks speakers="//@speakers.8" name="Model-Drıven Development of Composıte Content Applıcatıons" duration="30"/>
+    <talks speakers="//@speakers.10" name="Model-drıven development of Multı-agent Systems"/>
+  </tracks>
+  <speakers talks="//@tracks.0/@talks.2" name="Etienne Juliot"/>
+  <speakers talks="//@tracks.0/@talks.0" name="Bedir Tekinerdoğan"/>
+  <speakers talks="//@tracks.0/@talks.1" name="Rector Dean" organisation="University"/>
+  <speakers talks="//@tracks.0/@talks.3" name="Vahid Garousi"/>
+  <speakers talks="//@tracks.1/@talks.1" name="Ali Hikmet Doğru"/>
+  <speakers talks="//@tracks.1/@talks.0" name="Fevzi Belli"/>
+  <speakers talks="//@tracks.0/@talks.1" name="ÇAĞATAY ÇATAL"/>
+  <speakers talks="//@tracks.1/@talks.2" name="Hasan Sözer"/>
+  <speakers talks="//@tracks.1/@talks.4" name="Ferhat Erata"/>
+  <speakers talks="//@tracks.1/@talks.3" name="Cemal Yılmaz"/>
+  <speakers talks="//@tracks.1/@talks.5" name="Moharram Challenger"/>
+  <days name="Friday" talks="//@tracks.0/@talks.0 //@tracks.0/@talks.1 //@tracks.0/@talks.2 //@tracks.0/@talks.3"/>
+  <locations name="Room 1" talks="//@tracks.0/@talks.0 //@tracks.0/@talks.1"/>
+  <locations name="Room 2"/>
+</conference:Conference>

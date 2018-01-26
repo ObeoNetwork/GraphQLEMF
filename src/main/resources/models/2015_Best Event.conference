@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conference:Conference xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:conference="http://www.example.org/conference" name="Roadshow">
+  <tracks name="Approach and The Sirius Project">
+    <talks name="Welcome" abstract="Coffee, Breakfast, Welcome" duration="30" day="//@days.0" location="//@locations.2" time="9:00"/>
+    <talks speakers="//@speakers.2 //@speakers.0" name="Sirius presentation and demonstration" abstract="Eclipse Sirius is an Open Source technology that you can use to easily create a customized modeling workbench." duration="90" day="//@days.0" location="//@locations.2" time="9:30"/>
+    <talks speakers="//@speakers.3" name="Use case of Clarity: System Engineering" abstract="Capella Tool and Approach" duration="30" day="//@days.0" location="//@locations.2" time="12:00">
+      <subjects description="Create a dynamic editor for Architecture Analysis"/>
+      <subjects description="10 min to create a designer from scratch" isDone="true"/>
+      <subjects description="How to create an aircraft?" isDone="true"/>
+      <subjects description="Domain &#xD;&#xA;Driven &#xD;&#xA;Design" isDone="true"/>
+      <subjects description="The OpenSource Project MakingOf"/>
+      <subjects description="Enterprise Architecture"/>
+      <subjects description="Software Factory (Codegen, Agile, Arduino, Carto)" isDone="true"/>
+      <subjects description="Conclusion &amp; Questions" isDone="true"/>
+      <subjects description="Integration with others projects"/>
+      <subjects description="Very cool introduction for MixIT" isDone="true"/>
+      <subjects description="5 more?" isDone="true"/>
+      <makingOfStories name="Story from MixIT">
+        <days name="jeudi">
+          <tasks/>
+        </days>
+        <days name="mercredi">
+          <tasks isInvolved="//@tracks.0/@talks.2/@makingOfStories.0/@days.1/@participants.0"/>
+          <tasks isInvolved="//@tracks.0/@talks.2/@makingOfStories.0/@days.1/@participants.0"/>
+          <tasks isInvolved="//@tracks.0/@talks.2/@makingOfStories.0/@days.1/@participants.0"/>
+          <ideas/>
+          <participants person="//@speakers.3"/>
+        </days>
+      </makingOfStories>
+    </talks>
+    <talks name="Break" abstract="Coffee" duration="15" day="//@days.0" location="//@locations.2" time="11:00"/>
+    <talks speakers="//@speakers.4" name="Use case of Paranor: Reverse Engineering" abstract="ReTarget Tool and Approach" duration="45" day="//@days.0" location="//@locations.2" time="11:15"/>
+  </tracks>
+  <tracks name="Case Studies">
+    <talks speakers="//@speakers.1 //@speakers.3 //@speakers.0 //@speakers.2" name="Hands-on" abstract="You will create your first Sirius prototype under supervision by our team." duration="210" day="//@days.1" location="//@locations.2" time="14:00"/>
+  </tracks>
+  <speakers talks="//@tracks.0/@talks.1 //@tracks.1/@talks.0" name="Etienne Juliot"/>
+  <speakers talks="//@tracks.1/@talks.0" name="Steve Peguet"/>
+  <speakers talks="//@tracks.0/@talks.1 //@tracks.1/@talks.0" name="Frédéric Madiot"/>
+  <speakers talks="//@tracks.0/@talks.2 //@tracks.1/@talks.0" name="Christophe Boudjennah"/>
+  <speakers talks="//@tracks.0/@talks.4" name="Stéphane Barbey"/>
+  <days name="Morning" talks="//@tracks.0/@talks.0 //@tracks.0/@talks.1 //@tracks.0/@talks.2 //@tracks.0/@talks.3 //@tracks.0/@talks.4"/>
+  <days name="Afternoon" talks="//@tracks.1/@talks.0"/>
+  <locations name="Grand Amphi"/>
+  <locations name="Petit Amphi"/>
+  <locations name="Main Room" talks="//@tracks.0/@talks.0 //@tracks.0/@talks.4 //@tracks.0/@talks.2 //@tracks.0/@talks.3 //@tracks.0/@talks.1 //@tracks.1/@talks.0"/>
+</conference:Conference>

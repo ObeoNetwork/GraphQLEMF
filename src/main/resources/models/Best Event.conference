@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conference:Conference xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:conference="http://www.example.org/conference" name="MixIT">
+  <tracks name="Mix-IT Jeudi">
+    <talks speakers="//@speakers.1" name="Le panda roux est mon nouvel ami.&#xD;&#xA;" abstract="Vous êtes intéressés par cette plate-forme, mais vous vous posez des questions sur ce qui est réalisable et comment ? Nous verrons ce qu’est réellement une application pour Firefox OS, les technologies employées pour réaliser son développement et les problèmes que j’ai pu rencontrer." duration="50" day="//@days.0" location="//@locations.2" time="10:00"/>
+    <talks speakers="//@speakers.4" name="The Three  Age of Innovation" abstract="" duration="30" day="//@days.0" location="//@locations.0" time="9:15"/>
+    <talks speakers="//@speakers.0" name="Sirius : un schéma vaut mieux qu'un long discours" abstract="Sirius est un nouveau projet OpenSource releasé au sein du dernier Eclipse Luna." duration="60" day="//@days.0" location="//@locations.2" time="14:50">
+      <subjects description="Create a dynamic editor for Architecture Analysis"/>
+      <subjects description="10 min to create a designer from scratch" isDone="true"/>
+      <subjects description="How to create an aircraft?" isDone="true"/>
+      <subjects description="Domain &#xD;&#xA;Driven &#xD;&#xA;Design" isDone="true"/>
+      <subjects description="The OpenSource Project MakingOf"/>
+      <subjects description="Enterprise Architecture"/>
+      <subjects description="Software Factory (Codegen, Agile, Arduino, Carto)" isDone="true"/>
+      <subjects description="Conclusion &amp; Questions" isDone="true"/>
+      <subjects description="Integration with others projects"/>
+      <subjects description="Very cool introduction for MixIT" isDone="true"/>
+      <subjects description="5 more?" isDone="true"/>
+      <makingOfStories name="Story from MixIT">
+        <days name="jeudi">
+          <tasks/>
+        </days>
+        <days name="mercredi">
+          <tasks isInvolved="//@tracks.0/@talks.2/@makingOfStories.0/@days.1/@participants.0"/>
+          <tasks isInvolved="//@tracks.0/@talks.2/@makingOfStories.0/@days.1/@participants.0"/>
+          <tasks isInvolved="//@tracks.0/@talks.2/@makingOfStories.0/@days.1/@participants.0"/>
+          <ideas/>
+          <participants person="//@speakers.5"/>
+        </days>
+      </makingOfStories>
+    </talks>
+    <talks speakers="//@speakers.2 //@speakers.3" name="Solution focus in Team" abstract="Vous êtes Manager (de Managers) ou Scrum Master et vous retrouvez bloqué dans la mise en oeuvre d’axes d’améliorations, par exemples définis en rétrospectives. Les obstacles paraissent insurmontables dans votre contexte, sur ce projet avec cette équipe ce n’est pas possible" duration="50" day="//@days.0" location="//@locations.2" time="11:10"/>
+    <talks speakers="//@speakers.6" name="Apprenez les ficelles de Marionette" duration="50" day="//@days.0" location="//@locations.2" time="13:40"/>
+  </tracks>
+  <speakers talks="//@tracks.0/@talks.2" name="Etienne Juliot"/>
+  <speakers talks="//@tracks.0/@talks.0" name="Johan Poirier"/>
+  <speakers talks="//@tracks.0/@talks.3" name="Vincent Daviet" organisation="University"/>
+  <speakers talks="//@tracks.0/@talks.3" name="Géry Derbier"/>
+  <speakers talks="//@tracks.0/@talks.1" name="Dan North"/>
+  <speakers name="Philippe Charrière"/>
+  <speakers talks="//@tracks.0/@talks.4" name="Romain Maton"/>
+  <days name="Jeudi" talks="//@tracks.0/@talks.0 //@tracks.0/@talks.1 //@tracks.0/@talks.2 //@tracks.0/@talks.3 //@tracks.0/@talks.4"/>
+  <days name="Vendredi"/>
+  <locations name="Grand Amphi" talks="//@tracks.0/@talks.1"/>
+  <locations name="Petit Amphi"/>
+  <locations name="Lovelace" talks="//@tracks.0/@talks.0 //@tracks.0/@talks.4 //@tracks.0/@talks.2 //@tracks.0/@talks.3"/>
+</conference:Conference>

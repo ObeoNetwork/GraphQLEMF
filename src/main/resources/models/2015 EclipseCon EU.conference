@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conference:Conference xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:conference="http://www.example.org/conference" name="EclipseCon Europe 2015">
+  <tracks name="Eclipse Technology">
+    <talks speakers="//@speakers.2" name="A Sirius editor to define Sirius editors" abstract="Sirius is a framework to build graphical modeling tools for EMF models. The editor definition itself has to be specified in an Odesign model, which is interpreted by the Sirius runtime. " duration="10" day="//@days.0" location="//@locations.2" time="17:30"/>
+    <talks speakers="//@speakers.3" name="Sirius 3.x : Faster, Stronger and Smarter Diagram Editors" abstract="With almost 400 bugzillas closed between the Luna and the Mars releases and around 50 planned bugzillas for the 3.1 release (October 15, 2015), the Sirius team has been very active in bringing..." duration="35" day="//@days.2" location="//@locations.1" time="13:30"/>
+    <talks speakers="//@speakers.5" name="Automatic Layout for Complex Diagrams Is Coming to Eclipse" abstract="This presentation will introduce the Eclipse Layout Kernel and explain the usual steps to enable automatic layout for your editor through the use of a simple Java API" duration="35" day="//@days.0" location="//@locations.5" time="15:00"/>
+    <talks speakers="//@speakers.11 //@speakers.10" name="Tailor-made model comparison: how to customize EMF Compare for your modeling language" abstract="EMF Compare is a framework supporting model differencing and merging for EMF-based models. Therefore, it enables users to determine changes they have applied to their models, to identify overlaps between distinct models and to merge changes that have been performed on the same model by different users in parallel." duration="35" day="//@days.2" location="//@locations.5" time="13:30"/>
+    <talks speakers="//@speakers.1" name="EMF Compare + EGit = Seamless Collaborative Modeling" abstract="Dealing with comparison and merge of large models in large teams" day="//@days.1" location="//@locations.2" time="16:15"/>
+    <talks speakers="//@speakers.7" name="Sirius - A graphic model is worth a thousand words" abstract="Whether you are an IT Architect or Developer, a Tools and Methods Manager, or an Embedded Software or Systems Engineer, you are called on daily to devise and design innovative solutions in complex..." duration="35" day="//@days.1" location="//@locations.1" time="15:15">
+      <subjects description="Ergonomic: how to make it sexy?" isDone="true"/>
+      <subjects description="10 min to create a designer" isDone="true"/>
+      <subjects description="How to create an aircraft? (with Capella)" isDone="true"/>
+      <subjects description="Gallery"/>
+      <subjects description="Live Collaboration"/>
+      <subjects description="Conclusion &amp; Questions" isDone="true"/>
+      <subjects description="Integration with others projects" isDone="true"/>
+      <subjects description="Very cool introduction for EclipseCon" isDone="true"/>
+      <subjects description="5 more?"/>
+      <subjects description="HelloWorld"/>
+      <subjects description="Tips and Tricks"/>
+      <makingOfStories name="Story from ECon">
+        <days name="Wednesday">
+          <tasks/>
+        </days>
+        <days name="Tuesday">
+          <tasks name=""/>
+          <participants person="//@speakers.12"/>
+        </days>
+      </makingOfStories>
+    </talks>
+  </tracks>
+  <tracks name="Other Cool Stuff">
+    <talks speakers="//@speakers.8 //@speakers.4" name="Breathe life into your Designer!" abstract="You have your shiny new DSL up and running thanks to the Eclipse Modeling Technologies and you built a powerful tooling with graphical modelers, textual syntaxes or dedicated editors to support it..." duration="35" day="//@days.2" location="//@locations.3" time="10:30"/>
+  </tracks>
+  <tracks name="Web Technologies and Cloud Dev">
+    <talks speakers="//@speakers.6" name="IncQuery gets Sirius: faster and better diagrams" abstract="Modern domain-specific modeling environments offer rich graphical editors, which provide multiple views to highlight specific..." duration="35" day="//@days.2" location="//@locations.3" time="11:15"/>
+  </tracks>
+  <tracks name="Industry Solutions"/>
+  <tracks name="BOF"/>
+  <tracks name="LocationTech"/>
+  <tracks name="IoT"/>
+  <tracks name="Project Quality Day"/>
+  <speakers name="Cédric Brun"/>
+  <speakers talks="//@tracks.0/@talks.4" name="Laurent Delaigue"/>
+  <speakers talks="//@tracks.0/@talks.0" name="Max Bureck"/>
+  <speakers talks="//@tracks.0/@talks.1" name="Maxime Porhel"/>
+  <speakers talks="//@tracks.1/@talks.0" name="Mélanie Bats"/>
+  <speakers talks="//@tracks.0/@talks.2" name="Christoph Daniel Schulze"/>
+  <speakers talks="//@tracks.2/@talks.0" name="Akos Horvath"/>
+  <speakers talks="//@tracks.0/@talks.5" name="Etienne Juliot"/>
+  <speakers talks="//@tracks.1/@talks.0" name="Benoit Combemale"/>
+  <speakers name="Matthieu Helleboid"/>
+  <speakers talks="//@tracks.0/@talks.3" name="Philip Langer "/>
+  <speakers talks="//@tracks.0/@talks.3" name="Maximilian Koegel"/>
+  <speakers name="Alex Schladebeck"/>
+  <days name="Tuesday" talks="//@tracks.0/@talks.2 //@tracks.0/@talks.0"/>
+  <days name="Wednesday" talks="//@tracks.0/@talks.4 //@tracks.0/@talks.5"/>
+  <days name="Thursday" talks="//@tracks.2/@talks.0 //@tracks.1/@talks.0 //@tracks.0/@talks.1 //@tracks.0/@talks.3"/>
+  <locations name="Bürgersaal 2"/>
+  <locations name="Wilhelm-Kramer-Zimmer" talks="//@tracks.0/@talks.1 //@tracks.0/@talks.5"/>
+  <locations name="Theater" talks="//@tracks.0/@talks.0 //@tracks.0/@talks.4"/>
+  <locations name="Silchersaal" talks="//@tracks.1/@talks.0 //@tracks.2/@talks.0"/>
+  <locations name="Theater Stage"/>
+  <locations name="Seminarraum 5" talks="//@tracks.0/@talks.2 //@tracks.0/@talks.3"/>
+</conference:Conference>

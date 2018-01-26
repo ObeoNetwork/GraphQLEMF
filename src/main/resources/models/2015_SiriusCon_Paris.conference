@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conference:Conference xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:conference="http://www.example.org/conference" name="">
+  <tracks name="General">
+    <talks speakers="//@speakers.0 //@speakers.2" name="Welcome speech" duration="30" day="//@days.0" location="//@locations.3" time="09h30"/>
+    <talks speakers="//@speakers.13" name="Sirius roadmap" duration="50" day="//@days.0" location="//@locations.3" time="14h00"/>
+    <talks speakers="//@speakers.2" name="Closing Session" duration="20" day="//@days.0" location="//@locations.3" time="17h40"/>
+  </tracks>
+  <tracks name="Customer Testimonies">
+    <talks speakers="//@speakers.3" name="Constraint Graph: Graphical Modeling of Physical Equation Systems" duration="30" day="//@days.0" location="//@locations.0" time="10h05"/>
+    <talks speakers="//@speakers.7" name="EIP Designer: Filling the Gap Between Enterprise Architecture and Software Dev" duration="30" day="//@days.0" location="//@locations.1" time="10h40"/>
+    <talks speakers="//@speakers.4" name="Functional Modelling Tool for the Avionics Domain" duration="30" day="//@days.0" location="//@locations.0" time="10h40"/>
+    <talks speakers="//@speakers.9" name="eWORMS, the Eclipse WORkflow Management System for Flight Physicists at Airbus" duration="30" day="//@days.0" location="//@locations.1" time="12h15"/>
+    <talks speakers="//@speakers.5 //@speakers.6" name="Safr@n: Combining Several DSLs to Analyze, Design and Generate Normalized Applications" duration="30" day="//@days.0" location="//@locations.1" time="10h05"/>
+    <talks speakers="//@speakers.10" name="Experimenting the Open Source MBSE Solution Capella: the Industrials' Viewpoint" duration="30" day="//@days.0" location="//@locations.0" time="11h40"/>
+    <talks speakers="//@speakers.8" name="Sirius Viewpoints and Software Modernization" duration="30" day="//@days.0" location="//@locations.1" time="11h40"/>
+    <talks speakers="//@speakers.11 //@speakers.12" name="Breathe Life into your Designer!" day="//@days.0" time="12h15"/>
+    <talks speakers="//@speakers.15" name="EMF-IncQuery: Blazing Fast Reaction Times Even for Very Large Diagrams" duration="30" day="//@days.0" location="//@locations.0" time="16h30"/>
+  </tracks>
+  <tracks name="Technical Stuff &amp; Discovery" animators="//@speakers.1">
+    <talks speakers="//@speakers.1" name="Tip &amp; Tricks: How to Make Robust and Scalable Modeling Workbenches" duration="30" day="//@days.0" location="//@locations.0" time="14h55"/>
+    <talks speakers="//@speakers.14" name="Collaborative Modeling with Sirius: from Model Fragments to Shared-Repository" duration="30" day="//@days.0" location="//@locations.0" time="15h30"/>
+    <talks speakers="//@speakers.16" name="All the Little Things That Make Your Graphical Tool Shine (or not)" duration="30" day="//@days.0" location="//@locations.0" time="17h05"/>
+    <talks speakers="//@speakers.17" name="Sirius Tutorial" duration="165" day="//@days.0" location="//@locations.1" time="14h55"/>
+    <talks name="Hands-On Clinic" duration="160" day="//@days.0" location="//@locations.2" time="10h05"/>
+    <talks name="Hands-On Clinic" duration="170" day="//@days.0" location="//@locations.2" time="14h55"/>
+  </tracks>
+  <speakers talks="//@tracks.0/@talks.0" name="Stéphane Lacrampe" organisation="Obeo"/>
+  <speakers talks="//@tracks.2/@talks.0" name="Maxime Porhel" organisation="Obeo" tracks="//@tracks.2"/>
+  <speakers talks="//@tracks.0/@talks.2 //@tracks.0/@talks.0" name="Etienne Juliot" organisation="Obeo"/>
+  <speakers talks="//@tracks.1/@talks.0" name="Lars Geyer-Blaumeiser" organisation="ETAS - Bosch"/>
+  <speakers talks="//@tracks.1/@talks.2" name="Ståle Walderhaug" organisation="SINTEF"/>
+  <speakers talks="//@tracks.1/@talks.4" name="Didier Féret" organisation="French Ministry of Defense "/>
+  <speakers talks="//@tracks.1/@talks.4" name="Arnaud Le Griel" organisation="French Ministry of Defense "/>
+  <speakers talks="//@tracks.1/@talks.1" name="Laurent Broudoux" organisation="MMA Insurance - Covéa"/>
+  <speakers talks="//@tracks.1/@talks.6" name="Stéphane Barbey" organisation="Paranor"/>
+  <speakers talks="//@tracks.1/@talks.3" name="Alexandra Boeuf" organisation="Airbus"/>
+  <speakers talks="//@tracks.1/@talks.5" name="Christophe Boudjennah" organisation="Obeo"/>
+  <speakers talks="//@tracks.1/@talks.7" name="Jérôme Lenoir" organisation="Thales"/>
+  <speakers talks="//@tracks.1/@talks.7" name="Mélanie Bats" organisation="Obeo"/>
+  <speakers talks="//@tracks.0/@talks.1" name="Cédric Brun" organisation="Obeo"/>
+  <speakers talks="//@tracks.2/@talks.1" name="Pierre-Charles David" organisation="Obeo"/>
+  <speakers talks="//@tracks.1/@talks.8" name="Ákos Horváth" organisation="IncQuery Labs "/>
+  <speakers talks="//@tracks.2/@talks.2" name="Loredana Chituc" organisation="Obeo"/>
+  <speakers talks="//@tracks.2/@talks.3" name="Frédéric Madiot" organisation="Obeo"/>
+  <days name="Thursday" talks="//@tracks.0/@talks.1 //@tracks.0/@talks.0 //@tracks.2/@talks.4 //@tracks.2/@talks.5 //@tracks.2/@talks.2 //@tracks.1/@talks.7 //@tracks.0/@talks.2 //@tracks.2/@talks.1 //@tracks.1/@talks.0 //@tracks.1/@talks.1 //@tracks.1/@talks.8 //@tracks.1/@talks.3 //@tracks.1/@talks.5 //@tracks.1/@talks.2 //@tracks.1/@talks.4 //@tracks.2/@talks.3 //@tracks.1/@talks.6 //@tracks.2/@talks.0"/>
+  <locations name="Room 1 - Louvre Palais Royal" talks="//@tracks.1/@talks.0 //@tracks.1/@talks.2 //@tracks.1/@talks.5 //@tracks.1/@talks.8 //@tracks.2/@talks.0 //@tracks.2/@talks.1 //@tracks.2/@talks.2"/>
+  <locations name="Room 2 - Concorde Invalides" talks="//@tracks.1/@talks.4 //@tracks.1/@talks.1 //@tracks.1/@talks.6 //@tracks.1/@talks.3 //@tracks.2/@talks.3"/>
+  <locations name="Hall" talks="//@tracks.2/@talks.4 //@tracks.2/@talks.5"/>
+  <locations name="Merged Concorde &amp; Louvre" talks="//@tracks.0/@talks.2 //@tracks.0/@talks.0 //@tracks.0/@talks.1"/>
+</conference:Conference>
