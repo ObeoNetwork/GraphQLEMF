@@ -11,7 +11,6 @@ import org.eclipse.emf.ecore.EOperation;
 import org.eclipse.emf.ecore.EPackage;
 import org.eclipse.emf.ecore.EReference;
 import org.eclipse.emf.ecore.resource.ResourceSet;
-import org.junit.Test;
 import org.obeonetwork.dataLoader.EMFModelLoad;
 
 import junit.framework.TestCase;
@@ -41,7 +40,6 @@ public class modelLoadTest extends TestCase {
   /**
    * Test the number of Eclasses.
    */
-  @Test
   public void testNbEclass() {
     assertEquals(10, eclasses.size());
   }
