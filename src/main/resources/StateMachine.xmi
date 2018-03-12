@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fsm:StateMachine
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:fsm="http://www.gemoc.org/legacyfsm/fsm"
+    xsi:schemaLocation="http://www.gemoc.org/legacyfsm/fsm fsm.ecore"
+    name="MyName"
+    initialState="//@ownedStates.0">
+  <ownedStates
+      name="StateTest"
+      outgoingTransitions="//@ownedTransitions.0"/>
+  <ownedStates
+      name="StateTest_2"
+      incomingTransitions="//@ownedTransitions.0"/>
+  <ownedTransitions
+      name="theTransition"
+      source="//@ownedStates.0"
+      target="//@ownedStates.1"
+      input="theInput"
+      output="theOutput"/>
+</fsm:StateMachine>
