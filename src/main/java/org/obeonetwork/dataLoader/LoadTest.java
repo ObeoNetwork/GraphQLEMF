@@ -23,7 +23,7 @@ public class LoadTest {
     ResourceSet resSet = loader.load();
 
     // StateMachine
-    EPackage packageRoot = loader.loadEcore(resSet);
+    EPackage packageRoot = loader.loadEcore(resSet, "src/main/resources/metamodels/DI.ecore");
 
     EList<EClassifier> eClassifiers = packageRoot.getEClassifiers();
 

@@ -24,10 +24,9 @@ public class EMFModelLoad {
     return new ResourceSetImpl();
   }
 
-  public EPackage loadEcore(ResourceSet resSet) {
+  public EPackage loadEcore(ResourceSet resSet, String URIpath) {
     // Get the resource
-    Resource resource = resSet.getResource(URI.createURI("src/main/resources/metamodels/DI.ecore"),
-        true);
+    Resource resource = resSet.getResource(URI.createURI(URIpath), true);
 
     // Get the first model element and cast it to the right type, in my
     // example everything is hierarchical included in this first node
@@ -39,10 +38,9 @@ public class EMFModelLoad {
     return ePackage;
   }
 
-  public EObject loadXMI(ResourceSet resSet) {
+  public EObject loadXMI(ResourceSet resSet, String URIpath) {
     // Get the resource
-    Resource resource = resSet.getResource(URI.createURI("src/main/resources/StateMachine.xmi"),
-        true);
+    Resource resource = resSet.getResource(URI.createURI(URIpath), true);
 
     // Get the first model element and cast it to the right type, in my
     // example everything is hierarchical included in this first node
