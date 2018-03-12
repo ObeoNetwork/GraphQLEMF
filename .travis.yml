@@ -4,3 +4,4 @@ java:
 
 script:
   - echo Hello
+  - mvn test -B
