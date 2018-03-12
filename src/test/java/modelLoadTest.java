@@ -11,6 +11,7 @@ import org.eclipse.emf.ecore.EOperation;
 import org.eclipse.emf.ecore.EPackage;
 import org.eclipse.emf.ecore.EReference;
 import org.eclipse.emf.ecore.resource.ResourceSet;
+import org.junit.Test;
 import org.obeonetwork.dataLoader.EMFModelLoad;
 
 import junit.framework.TestCase;
@@ -40,6 +41,7 @@ public class modelLoadTest extends TestCase {
   /**
    * Test the number of Eclasses.
    */
+  @Test
   public void testNbEclass() {
     assertEquals(10, eclasses.size());
   }
@@ -47,6 +49,7 @@ public class modelLoadTest extends TestCase {
   /**
    * Test the names expected for Eclasses.
    */
+  @Test
   public void testNameEclass() {
     String[] values = { "DiagramElement", "Diagram", "Style", "Node", "Edge", "Shape",
         "LabeledEdge", "Label", "LabeledShape", "Plane" };
@@ -61,6 +64,7 @@ public class modelLoadTest extends TestCase {
   /**
    * Test if expected atributes for Eclasse Diagramm was found.
    */
+  @Test
   public void testAttributeForEclassDiagram() {
     String[] values = { "name", "documentation", "resolution" };
     ArrayList<String> attributes = new ArrayList<>();
@@ -79,6 +83,7 @@ public class modelLoadTest extends TestCase {
   /**
    * Test if expected operation for Eclasse Plane was found.
    */
+  @Test
   public void testOperationForEclassPlane() {
     String[] values = { "plane_element_type" };
     ArrayList<String> operations = new ArrayList<>();
@@ -97,6 +102,7 @@ public class modelLoadTest extends TestCase {
   /**
    * Test if expected refs for Eclasse DiagramElement was found.
    */
+  @Test
   public void testOtherRefForEclassDiagramElement() {
     String[] values = { "owningDiagram", "owningElement", "ownedElement", "modelElement", "style" };
     ArrayList<String> otherRefs = new ArrayList<>();
@@ -115,6 +121,7 @@ public class modelLoadTest extends TestCase {
   /**
    * Test if expected superType for Eclasse DiagramElement was found.
    */
+  @Test
   public void testSuperTypeForLabeledEdge() {
     String[] values = { "DiagramElement", "Edge" };
     ArrayList<String> superTypes = new ArrayList<>();
