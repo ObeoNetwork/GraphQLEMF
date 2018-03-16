@@ -1,6 +1,9 @@
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 import org.eclipse.emf.common.util.EList;
@@ -36,6 +39,23 @@ public class modelLoadTest extends TestCase {
 
   public void tearDown() throws Exception {
     super.tearDown();
+  }
+
+  /**
+   * Test getModelsPath return models path
+   *
+   * @throws Exception
+   */
+  @Test
+  public void testModelsPath() throws Exception {
+    Map<String, File> actuals = EMFModelLoad.getMetamodelsPath();
+    Map<String, String> excepted = new HashMap<String, String>();
+    excepted.put("flow.ecore", "src/main/resources/metamodels/flow.ecore");
+    excepted.put("DI.ecore", "src/main/resources/metamodels/DI.ecore");
+    for (String key : excepted.keySet()) {
+      assertTrue(actuals.containsKey(key));
+      assertEquals(excepted.get(key), actuals.get(key).toString());
+    }
   }
 
   /**

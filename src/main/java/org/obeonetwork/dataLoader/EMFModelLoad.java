@@ -1,6 +1,14 @@
 package org.obeonetwork.dataLoader;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 import org.eclipse.emf.common.util.URI;
 import org.eclipse.emf.ecore.EObject;
@@ -12,6 +20,24 @@ import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl;
 import org.eclipse.emf.ecore.xmi.impl.XMIResourceFactoryImpl;
 
 public class EMFModelLoad {
+
+  private static Map<String, File> filesInFolder(String path) throws IOException {
+    List<File> filesInFolder = Files.walk(Paths.get(path)).filter(Files::isRegularFile)
+        .filter(Files::isReadable).map(Path::toFile).collect(Collectors.toList());
+    Map<String, File> files = new HashMap<>();
+    for (File file : filesInFolder) {
+      files.put(file.getName(), file);
+    }
+    return files;
+  }
+
+  public static Map<String, File> getMetamodelsPath() throws IOException {
+    return filesInFolder("src/main/resources/metamodels/");
+  }
+
+  public static Map<String, File> getModelsPath() throws IOException {
+    return filesInFolder("src/main/resources/models/");
+  }
 
   public ResourceSet load() {
     // Register the XMI resource factory for the .website extension
