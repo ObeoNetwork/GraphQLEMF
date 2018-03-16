@@ -28,10 +28,36 @@ Now you can open http://localhost:8080/
 An example GraphQL query might look like:
 ```
 {
-  allEcores {
+  allEPackages {
+    # EPackage attributes
     name
     nsURI
     nsPrefix
+
+    # EPackage methods
+    EClassifiers {
+      name
+    }
+    EFactoryInstance {
+      # EFactory
+      EPackage {
+        # EPackage attributes
+        name
+        # …
+      }
+    }
+    ESubpackages {
+      # EPackage
+      name
+
+      # EPackages methods
+      ESuperPackage {
+        name
+        nsURI
+        nsPrefix
+      }
+    }
+
   }
 }
 ```

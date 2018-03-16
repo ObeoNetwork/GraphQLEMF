@@ -1,11 +1,24 @@
-type Ecore {
+type EFactory {
+  EPackage: EPackage
+}
+
+type EClassifier {
+  name: String!
+  EPackage: EPackage
+}
+
+type EPackage {
   name: String!
   nsURI: String!
   nsPrefix: String!
+  ESuperPackage: EPackage
+  EFactoryInstance: EFactory
+  EClassifiers: [EClassifier]
+  ESubpackages: [EPackage]
 }
 
 type Query {
-  allEcores: [Ecore]
+  allEPackages: [EPackage]
 }
 
 schema {

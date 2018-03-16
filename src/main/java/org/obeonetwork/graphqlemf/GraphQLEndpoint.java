@@ -25,8 +25,8 @@ public class GraphQLEndpoint extends SimpleGraphQLServlet {
   }
 
   private static GraphQLSchema buildSchema() {
-    EcoreRepository ecoreRepository = new EcoreRepository();
-    return SchemaParser.newParser().file("schema.graphqls").resolvers(new Query(ecoreRepository))
+    EPackageRepository ePackageRepository = new EPackageRepository();
+    return SchemaParser.newParser().file("schema.graphqls").resolvers(new Query(ePackageRepository))
         .build().makeExecutableSchema();
   }
 }
